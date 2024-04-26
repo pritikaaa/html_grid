@@ -1,0 +1,35 @@
+ 
+
+#image-container{
+    height: 500px;
+    width:auto;
+    background-image:url(everrest.jpg);
+    margin: 20px;
+    border: 20px;
+} 
+#nav{
+    height:38px;
+    width:100%;
+    background-color:bisque;
+    margin: 10px;
+    position:sticky;
+    top: 50px;
+    text-align: center;
+
+
+}
+.sample{
+    height: 40px;
+    width:auto;
+    background-color:aliceblue;
+    text-align: center;
+    position:sticky;
+    top: 0px;
+    padding:5px;
+    
+}
+a{
+    margin: 100px;;
+    text-decoration: none;
+
+}

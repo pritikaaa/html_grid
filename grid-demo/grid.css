@@ -1,0 +1,36 @@
+.outer_box{
+    display: grid;
+    color: brown;
+    /* width: 90%;
+    height: 500px; */
+    grid-gap: 10px;
+    grid-template-areas: "header header header"
+    "content content sidebar"
+    "footer footer footer";
+                            
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  
+  .header{
+    grid-area: header;
+    background-color: cadetblue;
+    /* height: max-content; */
+    /* width:; */
+  }
+  
+  .content{
+    grid-area: content;
+    background-color: darksalmon;
+
+  }
+
+.sidebar{
+  grid-area: sidebar;
+  background-color: grey;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: brown;
+  }

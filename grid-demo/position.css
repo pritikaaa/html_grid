@@ -1,0 +1,36 @@
+/* .parent{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(243, 147, 22);
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+   
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}  */
+
+
+.sample{
+    height: 200px;
+    width: 100px;
+    background-color: rgb(236, 150, 22);
+    margin: 20px;
+    
+
+}
+.mybox{
+    height:50px;
+    width: 70px;
+    background-color: brown;
+    position: sticky;
+    top: 60px;
+    margin: 10px;
+
+}
